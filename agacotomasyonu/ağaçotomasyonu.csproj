@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{709C343B-570B-49FF-80E1-7C1BC3000F0D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ağaçotomasyonu</RootNamespace>
+    <AssemblyName>ağaçotomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bilgipaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bilgipaneli.Designer.cs">
+      <DependentUpon>bilgipaneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="işlempaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="işlempaneli.Designer.cs">
+      <DependentUpon>işlempaneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giriş.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giriş.Designer.cs">
+      <DependentUpon>giriş.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kaydolma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kaydolma.Designer.cs">
+      <DependentUpon>kaydolma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="bilgipaneli.resx">
+      <DependentUpon>bilgipaneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="işlempaneli.resx">
+      <DependentUpon>işlempaneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giriş.resx">
+      <DependentUpon>giriş.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kaydolma.resx">
+      <DependentUpon>kaydolma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

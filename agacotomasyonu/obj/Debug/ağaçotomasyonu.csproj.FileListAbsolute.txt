@@ -1,0 +1,12 @@
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\bin\Debug\ağaçotomasyonu.exe
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\bin\Debug\ağaçotomasyonu.pdb
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\obj\Debug\ağaçotomasyonu.csprojAssemblyReference.cache
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\obj\Debug\ağaçotomasyonu.Properties.Resources.resources
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\obj\Debug\ağaçotomasyonu.csproj.GenerateResource.cache
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\obj\Debug\ağaçotomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\obj\Debug\ağaçotomasyonu.exe
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\obj\Debug\ağaçotomasyonu.pdb
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\obj\Debug\ağaçotomasyonu.bilgipaneli.resources
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\obj\Debug\ağaçotomasyonu.işlempaneli.resources
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\obj\Debug\ağaçotomasyonu.giriş.resources
+C:\Users\gs_ga\source\repos\ağaçotomasyonu\ağaçotomasyonu\obj\Debug\ağaçotomasyonu.kaydolma.resources
